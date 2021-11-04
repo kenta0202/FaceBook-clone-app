@@ -61,3 +61,14 @@
   - "lint": "eslint . src --ext .ts,.tsx",
   - "lint:fix": "eslint src --ext .js,jsx,.ts,.tsx --fix"
   - "eslintIgnore": ["/.eslintrc.js"]
+
+## Mongodb
+
+- .env に MONGODB_URI と MONGODB_DB を設置
+- npm i -D @types/mongodb
+- npm i mongodb
+- npm i axios
+
+## Firebase
+
+- docs/0/\_document/data/value/mapValue/field/age,name

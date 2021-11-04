@@ -30,6 +30,8 @@ module.exports = {
     "tailwind.config.js",
     "next.config.js",
     "next-env.d.ts",
+    "postcss.config.js",
+    "firebase.ts",
   ],
   plugins: ["jest"],
 };
