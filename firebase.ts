@@ -1,6 +1,7 @@
-import firebase from "firebase";
+import firebase from "firebase/app";
+// 使うパッケージだけimport
 import "firebase/firestore";
-import "firebase/storage";
+import "firebase/storage"; // ここには使用するFirebaseSDKモジュールを記載
 
 const app = firebase.apps.length
   ? firebase.app()
